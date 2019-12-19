@@ -1,0 +1,1029 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 0
+    mTerms:
+    - Term: Call Cnacelled
+      TermType: 0
+      Description: 
+      Languages:
+      - Call cancelled
+      - "\u547C\u53EB\u53D6\u6D88"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Call Rejected
+      TermType: 0
+      Description: 
+      Languages:
+      - Call rejected
+      - "\u547C\u53EB\u88AB\u62D2"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Call Timed Out
+      TermType: 0
+      Description: 
+      Languages:
+      - Call timed out.
+      - "\u547C\u53EB\u8D85\u65F6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Calling
+      TermType: 0
+      Description: 
+      Languages:
+      - Calling
+      - "\u547C\u53EB"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - "\u53D6\u6D88"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Category
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Collections:'
+      - "\u96C6\u5408:"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Connection Timed Out
+      TermType: 0
+      Description: 
+      Languages:
+      - Connection timed out
+      - "\u8FDE\u63A5\u8D85\u65F6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Contact Admin
+      TermType: 0
+      Description: 
+      Languages:
+      - Please contact your administrator
+      - "\u8BF7\u8054\u7CFB\u60A8\u7684\u7BA1\u7406\u5458"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Contacts
+      - "\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Initialize Zip
+      TermType: 0
+      Description: 
+      Languages:
+      - Couldn't initialize ZIP
+      - "\u65E0\u6CD5\u521D\u59CB\u5316"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load contacts
+      - "\u65E0\u6CD5\u52A0\u8F7D\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load Experts
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load Experts
+      - "\u65E0\u6CD5\u52A0\u8F7D\u4E13\u5BB6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load History
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load call history
+      - "\u65E0\u6CD5\u52A0\u8F7D\u5386\u53F2"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load Models
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load models
+      - "\u65E0\u6CD5\u52A0\u8F7D\u6A21\u578B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load Shapes
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load shapes
+      - "\u65E0\u6CD5\u52A0\u8F7D\u5F62\u72B6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Delete
+      TermType: 0
+      Description: 
+      Languages:
+      - Delete
+      - "\u5220\u9664"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Device Not Disabled
+      TermType: 0
+      Description: 
+      Languages:
+      - Device was not disabled
+      - "\u8BBE\u5907\u672A\u7981\u7528"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Password
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter a password
+      - "\u8BF7\u8F93\u5165\u5BC6\u7801"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Text
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter text...
+      - "\u8F93\u5165\u6587\u5B57"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Username
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter an username
+      - "\u8BF7\u8F93\u5165\u7528\u6237\u540D\u9A8C\u8BC1"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Username Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter an username.
+      - "\u8BF7\u8F93\u5165\u7528\u6237\u540D\u9A8C\u8BC1"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Failed Connect Call
+      TermType: 0
+      Description: 
+      Languages:
+      - Failed to connect call
+      - "\u65E0\u6CD5\u8FDE\u63A5\u901A\u8BDD"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Failed Extraction
+      TermType: 0
+      Description: 
+      Languages:
+      - Failed extraction
+      - "\u63D0\u53D6\u5931\u8D25"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Find an Expert
+      TermType: 0
+      Description: 
+      Languages:
+      - Find an Expert
+      - "\u5BFB\u627E\u4E13\u5BB6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/NGUI Medium Font
+      TermType: 1
+      Description: 
+      Languages:
+      - NotoSans-Medium
+      - NotoSansCJKsc-Medium
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/NGUI Regular Font
+      TermType: 1
+      Description: 
+      Languages:
+      - NotoSans-Regular
+      - NotoSansCJKsc-Regular
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/Test Mesh Pro Regular Font
+      TermType: 8
+      Description: 
+      Languages:
+      - NotoSans-Medium SDF
+      - NotoSansCJKsc-Medium SDF
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Fonts/Text Mesh Pro Medium Font
+      TermType: 8
+      Description: 
+      Languages:
+      - NotoSans-Medium SDF
+      - NotoSansCJKsc-Medium SDF
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Forget Password
+      TermType: 0
+      Description: 
+      Languages:
+      - Forget password?
+      - "\u5FD8\u8BB0\u5BC6\u7801"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/3D Models
+      TermType: 0
+      Description: 
+      Languages:
+      - 3D Models
+      - "3D\u6A21\u578B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Call Timer
+      TermType: 0
+      Description: 
+      Languages:
+      - Call Timer
+      - "\u547C\u53EB\u8BA1\u65F6\u5668"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Drawing
+      TermType: 0
+      Description: 
+      Languages:
+      - Drawing
+      - "\u7ED8\u56FE"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Erase Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Erase
+
+        <size=70%>Hold button for 2 seconds to erase everything'
+      - "\u5220\u9664\n<size=70%>\u6309\u4F4F2\u79D2\u5220\u9664\u6240\u6709\u5185\u5BB9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Hang Up
+      TermType: 0
+      Description: 
+      Languages:
+      - Hang up
+      - "\u6302\u65AD"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Help
+      TermType: 0
+      Description: 
+      Languages:
+      - Help
+      - "\u5E2E\u52A9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Hide Assets Catalogue
+      TermType: 0
+      Description: 
+      Languages:
+      - Hide assets catalogue
+      - "\u9690\u85CF\u8D44\u4EA7\u76EE\u5F55"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Hide Toolbar
+      TermType: 0
+      Description: 
+      Languages:
+      - Hide Toolbar
+      - "\u9690\u85CF\u5DE5\u5177\u680F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Model Asset Catelogue Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Assets catalogue panel
+
+        <size=70%>Tap a thumbnail of the model to add it your quick access panel'
+      - "\u8D44\u4EA7\u76EE\u5F55\u9762\u677F\n<size=70%>\u70B9\u51FB\u6A21\u578B\u7684\u7F29\u7565\u56FE\u5C06\u5176\u6DFB\u52A0\u5230\u60A8\u7684\u5FEB\u901F\u8BBF\u95EE\u9762\u677F\u4E2D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Model Quick Assets Panel Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Quick access panel
+
+        <size=70%>Tap on a model to place it onto the scene'
+      - "\u5FEB\u901F\u8BBF\u95EE\u9762\u677F\n<size=70%>\u70B9\u51FB\u6A21\u578B\u5C06\u5176\u653E\u5230\u573A\u666F\u4E2D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Open Assets Catalogue
+      TermType: 0
+      Description: 
+      Languages:
+      - Open assets catalogue
+      - "\u6253\u5F00\u8D44\u4EA7\u76EE\u5F55"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Pick Category
+      TermType: 0
+      Description: 
+      Languages:
+      - Pick Collection
+      - "\u6311\u9009\u96C6\u5408"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Pick The Color
+      TermType: 0
+      Description: 
+      Languages:
+      - Pick the color
+      - "\u6311\u9009\u989C\u8272"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Request Frame
+      TermType: 0
+      Description: 
+      Languages:
+      - Request Frame
+      - "\u8BF7\u6C42\u6846"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Rotate
+      TermType: 0
+      Description: 
+      Languages:
+      - Rotate
+      - "\u65CB\u8F6C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Scale
+      TermType: 0
+      Description: 
+      Languages:
+      - Scale
+      - "\u7F29\u653E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Shape Asset Catelogue Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Assets catalogue panel
+
+        <size=70%>Tap a thumbnail of the image to add it your quick access panel'
+      - "\u8D44\u4EA7\u76EE\u5F55\u9762\u677F\n<size=70%>\u70B9\u51FB\u56FE\u7247\u7684\u7F29\u7565\u56FE\u6DFB\u52A0\u5FEB\u901F\u8BBF\u95EE\u9762\u677F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Shape Quick Assets Panel Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Quick access panel
+
+        <size=70%>Tap on an image to place it onto the scene'
+      - "\u5FEB\u901F\u8BBF\u95EE\u9762\u677F\n<size=70%>\u70B9\u51FB\u56FE\u50CF\u5C06\u5176\u653E\u5230\u573A\u666F\u4E2D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Shapes
+      TermType: 0
+      Description: 
+      Languages:
+      - Shapes
+      - "\u5F62\u72B6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Show Toolbar
+      TermType: 0
+      Description: 
+      Languages:
+      - Show Toolbar
+      - "\u663E\u793A\u5DE5\u5177\u680F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Text
+      TermType: 0
+      Description: 
+      Languages:
+      - Text
+      - "\u6587\u672C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Toggle Camera
+      TermType: 0
+      Description: 
+      Languages:
+      - Toggle camera
+      - "\u5207\u6362\u6444\u50CF\u5934"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Toggle Mic
+      TermType: 0
+      Description: 
+      Languages:
+      - Toggle mic
+      - "\u5207\u6362\u9EA6\u514B\u98CE"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Translate
+      TermType: 0
+      Description: 
+      Languages:
+      - Translate
+      - "\u7FFB\u8BD1"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: History
+      TermType: 0
+      Description: 
+      Languages:
+      - History
+      - "\u5386\u53F2"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Hung Up
+      TermType: 0
+      Description: 
+      Languages:
+      - hung up
+      - "\u6302\u65AD"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Incoming Call From
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Incoming call
+
+        <size=60%>FROM</size>'
+      - "\u6765\u7535"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Incorrect Credentials
+      TermType: 0
+      Description: 
+      Languages:
+      - Username or password is incorrect
+      - "\u7528\u6237\u540D\u6216\u5BC6\u7801\u4E0D\u6B63\u786E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Languages
+      TermType: 0
+      Description: 
+      Languages:
+      - Languages
+      - "\u8BED\u8A00"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Logout
+      TermType: 0
+      Description: 
+      Languages:
+      - Logout
+      - "\u6CE8\u9500"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Line Thickness
+      TermType: 0
+      Description: 
+      Languages:
+      - Line thickness
+      - "\u7EBF\u7684\u7C97\u7EC6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Network Issues
+      TermType: 0
+      Description: 
+      Languages:
+      - The call was terminated due to network issues
+      - "\u7531\u4E8E\u7F51\u7EDC\u95EE\u9898\uFF0C\u8BE5\u547C\u53EB\u88AB\u7EC8\u6B62"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: OK
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - "\u540C\u610F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Password Hint
+      TermType: 0
+      Description: 
+      Languages:
+      - Password
+      - "\u5BC6\u7801"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Password Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter a password.
+      - "\u8BF7\u8F93\u5165\u5BC6\u7801"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Pause
+      TermType: 0
+      Description: 
+      Languages:
+      - Pause
+      - "\u6682\u505C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile
+      TermType: 0
+      Description: 
+      Languages:
+      - Profile
+      - "\u7B80\u51B5"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Add To Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Add to Contacts
+      - "\u6DFB\u52A0\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Remove From Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Remove from Contacts
+      - "\u5220\u9664\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Quit
+      TermType: 0
+      Description: 
+      Languages:
+      - Quit
+      - "\u79BB\u5F00"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Retry
+      TermType: 0
+      Description: 
+      Languages:
+      - Retry?
+      - "\u91CD\u8BD5"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Search Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Search contacts
+      - "\u641C\u7D22\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Search For Expert
+      TermType: 0
+      Description: 
+      Languages:
+      - Search for an Expert
+      - "\u641C\u7D22\u4E13\u5BB6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Select
+      TermType: 0
+      Description: 
+      Languages:
+      - Select
+      - "\u9009\u62E9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/About
+      TermType: 0
+      Description: 
+      Languages:
+      - About
+      - "\u5173\u4E8E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Delete Cached Models
+      TermType: 0
+      Description: 
+      Languages:
+      - Delete cached models
+      - "\u5220\u9664\u7F13\u5B58\u6A21\u578B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Expert
+      TermType: 0
+      Description: 
+      Languages:
+      - Expert
+      - "\u4E13\u5BB6"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/General
+      TermType: 0
+      Description: 
+      Languages:
+      - General
+      - "\u5E38\u89C4"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Privacy Policy
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy Policy
+      - "\u9690\u79C1\u653F\u7B56"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Send Feedback
+      TermType: 0
+      Description: 
+      Languages:
+      - Send feedback
+      - "\u53D1\u9001\u53CD\u9988"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Send Feedback Subtitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Got any questions? We are happy to help
+      - "\u6709\u4EFB\u4F55\u95EE\u9898\u5417\uFF1F \u6211\u4EEC\u5F88\u4E50\u610F\u5E2E\u52A9"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Settings
+      TermType: 0
+      Description: 
+      Languages:
+      - Settings
+      - "\u8BBE\u7F6E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Show Front Facing Camera
+      TermType: 0
+      Description: 
+      Languages:
+      - Show Expert Screen
+      - "\u663E\u793A\u4E13\u5BB6\u7684\u5C4F\u5E55"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Support
+      TermType: 0
+      Description: 
+      Languages:
+      - Support
+      - "\u652F\u6301"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Terms of Service
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms of Service
+      - "\u670D\u52A1\u6761\u6B3E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Sign In Button
+      TermType: 0
+      Description: 
+      Languages:
+      - SIGN IN
+      - "\u7B7E\u5230"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Token Failed
+      TermType: 0
+      Description: 
+      Languages:
+      - Token validation failed
+      - "\u9A8C\u8BC1\u5931\u8D25"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Try Logging In Again
+      TermType: 0
+      Description: 
+      Languages:
+      - Trying logging in again
+      - "\u5C1D\u8BD5\u518D\u6B21\u767B\u5F55"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Unable Connect Call
+      TermType: 0
+      Description: 
+      Languages:
+      - Unable to connect call
+      - "\u65E0\u6CD5\u8FDE\u63A5\u547C\u53EB"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Username Hint
+      TermType: 0
+      Description: 
+      Languages:
+      - Username
+      - "\u7528\u6237\u540D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Username Too Long Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Username is too long.
+      - "\u7528\u6237\u540D\u592A\u957F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Loading 3D Model
+      TermType: 0
+      Description: 
+      Languages:
+      - Please wait while we process your 3D model...
+      - "\u6B63\u5728\u5904\u7406\u4E09\u7EF4\u6A21\u578B, \u8BF7\u7A0D\u5019..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Update Available
+      TermType: 0
+      Description: 
+      Languages:
+      - Sensei version {[VERSION]} is available! Would you like to update now?
+      - "\u53D1\u73B0\u65B0\u7248\u672C {[VERSION]}! \u662F\u5426\u73B0\u5728\u66F4\u65B0?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - "\u662F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: No
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "\u6CA1\u6709"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Added To Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Added to Contacts
+      - "\u5DF2\u6DFB\u52A0"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Removed From Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Removed from Contacts
+      - "\u5DF2\u5220\u9664"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Adding to Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Adding to Contacts
+      - "\u6DFB\u52A0\u5230\u8054\u7CFB\u4EBA"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Removing From Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - Removing from Contacts
+      - "\u4ECE\u8054\u7CFB\u4EBA\u4E2D\u5220\u9664"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Profile Screen/Adding To Contacts
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Could Not Load References
+      TermType: 0
+      Description: 
+      Languages:
+      - Could not load references
+      - "\u65E0\u6CD5\u52A0\u8F7D\u5F15\u7528"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/References
+      TermType: 0
+      Description: 
+      Languages:
+      - References
+      - "\u5F15\u7528"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/References Asset Catelogue Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Assets catalogue panel
+
+        <size=70%>Tap a thumbnail of the reference to add it your quick access panel'
+      - "\u8D44\u4EA7\u76EE\u5F55\u9762\u677F\n<size=70%>\u70B9\u51FB\u53C2\u8003\u7684\u7F29\u7565\u56FE\uFF0C\u5C06\u5176\u6DFB\u52A0\u5230\u5FEB\u901F\u8BBF\u95EE\u9762\u677F\u4E2D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/References Quick Assets Panel Help
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Quick access panel
+
+        <size=70%>Tap on a reference to place it onto the scene'
+      - "\u5FEB\u901F\u8BBF\u95EE\u9762\u677F\n<size=70%>\u70B9\u51FB\u5F15\u7528\u5C06\u5176\u7F6E\u4E8E\u573A\u666F\u4E2D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Novice Failed to Download
+      TermType: 0
+      Description: 
+      Languages:
+      - Novice failed to download asset
+      - "\u65B0\u624B\u672A\u80FD\u4E0B\u8F7D\u8D44\u4EA7"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Call Failed
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Refresh
+      TermType: 0
+      Description: 
+      Languages:
+      - Refresh
+      - "\u5237\u65B0"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Help/Query
+      TermType: 0
+      Description: 
+      Languages:
+      - Query
+      - "\u8BE2\u95EE"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Use Katana
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose AR Engine
+      - 
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Katana Switch
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose AR Engine
+      - "\u9009\u62E9 AR \u5F15\u64CE"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Novice
+      TermType: 0
+      Description: 
+      Languages:
+      - Novice
+      - "\u521D\u5B66\u8005"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Failed Camera Init
+      TermType: 0
+      Description: 
+      Languages:
+      - Couldn't initialize your webcam
+      - "\u65E0\u6CD5\u521D\u59CB\u5316\u60A8\u7684\u7F51\u7EDC\u6444\u50CF\u5934"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Company Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter company name.
+      - "\u8BF7\u8F93\u5165\u516C\u53F8\u540D\u79F0\u3002"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Company Hint
+      TermType: 0
+      Description: 
+      Languages:
+      - Company
+      - "\u516C\u53F8"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Company
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter a company name
+      - "\u8BF7\u8F93\u5165\u516C\u53F8\u540D\u79F0"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Company Not Registered
+      TermType: 0
+      Description: 
+      Languages:
+      - This company is not registered
+      - "\u8BE5\u516C\u53F8\u672A\u6CE8\u518C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Domain Hint
+      TermType: 0
+      Description: 
+      Languages:
+      - Domain
+      - "\u57DF"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Domain Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter company domain.
+      - "\u8BF7\u8F93\u5165\u516C\u53F8\u57DF\u540D\u3002"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Domain Period Validation
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter valid domain
+      - "\u8BF7\u8F93\u5165\u6709\u6548\u7684\u57DF\u540D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Enter Domain
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter valid domain
+      - "\u8BF7\u8F93\u5165\u6709\u6548\u7684\u57DF\u540D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Setting Screen/Libraries We Use
+      TermType: 0
+      Description: 
+      Languages:
+      - Libraries We Use
+      - "\u6211\u4EEC\u4F7F\u7528\u7684\u56FE\u4E66\u9986"
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: "\u7B80\u4F53\u4E2D\u6587"
+      Code: zh-CN
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 1
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbxXjs8lb1nE3Lp3BDnF8e9dB_F30I3OuRNhBGSD/exec
+    Google_SpreadsheetKey: 18tzE3EDO_BUqgc_5BH--e5ggDl5ogQLJhvQcExYRLdA
+    Google_SpreadsheetName: I2Loc Sensei V2 Localization
+    Google_LastUpdatedVersion: 1529941916798
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 5
+    Assets:
+    - {fileID: 12800000, guid: d5e9e8eb2d9822041b90153376f1dd04, type: 3}
+    - {fileID: 12800000, guid: a9ef40bc7d81d13428d7e8f36b812b3c, type: 3}
+    - {fileID: 12800000, guid: cccc816cb59d71546aadaa58dd7288ec, type: 3}
+    - {fileID: 12800000, guid: e07565661e807c545a784698ecafeaf9, type: 3}
+    - {fileID: 11400000, guid: 8378ba2315bb6cc44a6c857154d7a04e, type: 2}
+    - {fileID: 11400000, guid: bca2927c2080a564c934eea26063cc41, type: 2}
+    - {fileID: 11400000, guid: e6fbafb6683d79f44930f7b649365f79, type: 2}
+    - {fileID: 11400000, guid: af4862b936c399e48af15c2911e6aa82, type: 2}
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
